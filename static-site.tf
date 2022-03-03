@@ -4,4 +4,5 @@ module "static-site" {
   # insert required variables here
   bucket_name = "hashicat-static"
   domain = null
+  error_page = var.error_page
 }
